@@ -1,0 +1,258 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+        font-family: "Abel", sans-serif;
+}
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  img[src="logo.png"] {
+    width: 150px;
+  }
+  
+  #menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu span {
+    margin-right: 20px;
+  }
+  
+  #menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  #home {
+    text-align: center;
+    padding: 50px 0;
+    background-color:#CAFAD9;
+  }
+  .background-verde{
+    display: flex;
+  }
+  
+  #home img{
+    margin-left: 10%;
+  }
+  #home h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #home p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  
+  #button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+   
+    .texto{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+  #contrate {
+    background-color: #CAFAD9;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  #contrate h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #contrate p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+ 
+  
+  footer {
+    background-color: #F7F8F7;
+    color: #171214;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+  }
+  
+  footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  footer h3 {
+    
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  footer img {
+    width: 70px;
+    height: 70px;
+    margin: 0 10px;
+  }
+  
+        /* display: inline-block;
+        margin-right: 20px;
+    } */
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #CAFAD9;
+}
+
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-toggle img {
+    width: 20px;
+    height: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        float: none;
+        text-align: center;
+    }
+
+    .navbar li {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+}
+
+
+.main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.servicos-recrutamento,
+.equipes-globais {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+.servicos-recrutamento h2,
+.equipes-globais h2 {
+    margin-bottom: 15px;
+}
+
+.fale-com-alguem {
+    background-color: #7622D7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #681CAE;
+}
+
+
+.footer {
+    background-color: #171214;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.redes-sociais {
+    margin-top: 20px;
+}
+
+.redes-sociais a {
+    margin-right: 10px;
+}
+
+.redes-sociais a img {
+    width: 20px;
+    height: 20px;
+}
+.seta-baixo{
+    height: 10px;
+    width: 10px;
+}
+
+#imghome{
+    height: 30%;
+}
+
+.curriculo{
+    border: #7121 4 5px 15px;
+    border-radius: 15px;
+    padding: 9px;
+border-color: #171214;
+}
+.botao-abaixo-texto{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    margin-left: 40%;
+}
+
+.contato{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    margin-left: 45%;
+}
+
+.contato img{
+
+height: 4%;
+width: 4%;
+}
